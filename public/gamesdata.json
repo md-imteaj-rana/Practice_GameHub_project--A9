@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "title": "Player Unknown's Battlegrounds: PUBG Mobile",
+    "coverPhoto": "https://freeiconspng.com/uploads/pubg-logo-png-16.png",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/5d/Genshin_Impact_cover_art.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/m/en/home",
+    "description": "An open-world fantasy action RPG where you explore the vast land of Teyvat, battle, solve puzzles, and unlock characters using a gacha system.",
+    "ratings": "4.6",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "3",
+    "title": "Candy Crush Saga",
+    "coverPhoto": "https://king.com/assets/candycrush/CandyCrushSaga_Icon.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://play.google.com/store/apps/details?hl=en&id=com.king.candycrushsaga",
+    "description": "Match and blast colorful candies to progress through thousands of sweet levels, using boosters and clever moves.",
+    "ratings": "4.7",
+    "developer": "King"
+  },
+  {
+    "id": "4",
+    "title": "Subway Surfers",
+    "coverPhoto": "https://play-lh.googleusercontent.com/1ZbPHeKdzYZJBHc119TqP6qtfQj7PATZz_vc5-ORs1Ppfi1QzQbIr1D6ad0AvvIu_g",
+    "category": "Endless Runner",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
+    "description": "Run, dodge trains, and collect coins in this fast-paced, infinite runner game set in a vibrant urban world.",
+    "ratings": "4.4",
+    "developer": "SYBO Games / Kiloo"
+  },
+  {
+    "id": "5",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://supercell.com/static/images/games/clash-of-clans/hero.png",
+    "category": "Strategy",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans",
+    "description": "Build your village, raise an army, and battle in epic clan wars in this popular strategy game.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "6",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://cdn1.codashop.com/S/content/common/logo-codm.png",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Classic Call of Duty action on mobile – multiplayer, battle royale, and ranked play with iconic maps and weapons.",
+    "ratings": "4.3",
+    "developer": "TiMi Studios / Activision"
+  },
+  {
+    "id": "7",
+    "title": "Among Us",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/9f/Among_Us_cover_art.jpg",
+    "category": "Social Deduction",
+    "downloadLink": "https://www.innersloth.com/gameAmongUs.php",
+    "description": "Work together with crewmates to complete tasks — but beware, impostors lurk among you!",
+    "ratings": "4.2",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "8",
+    "title": "Lords Mobile",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/f/f9/Lords_Mobile_icon.png",
+    "category": "Strategy / MMO",
+    "downloadLink": "https://www.igg.com/game/1066856/lords-mobile",
+    "description": "Build a powerful empire, recruit heroes, and battle players around the world in this real-time strategy MMO.",
+    "ratings": "4.3",
+    "developer": "IGG"
+  },
+  {
+    "id": "9",
+    "title": "Royal Match",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/d/d8/Royal_Match_icon.png",
+    "category": "Puzzle",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch",
+    "description": "Match cubes and help King Robert restore his castle in this colorful match-3 puzzle adventure.",
+    "ratings": "4.5",
+    "developer": "Dream Games"
+  },
+  {
+    "id": "10",
+    "title": "Fire Emblem Heroes",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/d/d1/Fire_Emblem_Heroes_logo.png",
+    "category": "Tactical RPG",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.nintendo.zaba",
+    "description": "Assemble teams of Fire Emblem characters and battle in tactical, turn-based combat to save the realm.",
+    "ratings": "4.2",
+    "developer": "Intelligent Systems / Nintendo"
+  },
+  {
+    "id": "11",
+    "title": "Gardenscapes: New Acres",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/8/82/Gardenscapes_logo.png",
+    "category": "Simulation / Puzzle",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes",
+    "description": "Restore and decorate a garden by solving match-3 puzzles and discovering its hidden stories.",
+    "ratings": "4.6",
+    "developer": "Playrix"
+  },
+  {
+    "id": "12",
+    "title": "Puzzle & Dragons",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/3/30/Puzzle_%26_Dragons_icon.png",
+    "category": "Puzzle / RPG",
+    "downloadLink": "http://www.puzzledragons.us",
+    "description": "Combine match-3 puzzle gameplay with monster collection and RPG mechanics in an addictive hybrid game.",
+    "ratings": "4.4",
+    "developer": "GungHo Online Entertainment"
+  },
+  {
+    "id": "13",
+    "title": "Temple Run 2",
+    "coverPhoto": "https://lh3.googleusercontent.com/0G5KIUjvZxeyEtBY6qQ6h12lW4A-6Pn0t1Pp1k4t3k7Q3K5Bcw3OG3ejaUbK71xw5A",
+    "category": "Endless Runner",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.imangi.templerun2",
+    "description": "Run for your life through perilous cliffs, zip lines, mines and jungles in this sequel to the hit endless runner.",
+    "ratings": "4.5",
+    "developer": "Imangi Studios"
+  },
+  {
+    "id": "14",
+    "title": "8 Ball Pool",
+    "coverPhoto": "https://cdn-icons-png.flaticon.com/512/889/889190.png",
+    "category": "Sports / Pool",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool",
+    "description": "Play pool with friends or solo in this popular online 8-ball billiards game.",
+    "ratings": "4.4",
+    "developer": "Miniclip"
+  },
+  {
+    "id": "15",
+    "title": "Roblox",
+    "coverPhoto": "https://www.roblox.com/static/images/share_image.jpg",
+    "category": "Sandbox / MMO",
+    "downloadLink": "https://www.roblox.com/download",
+    "description": "Create, play, and explore millions of immersive 3D experiences built by a global community of creators.",
+    "ratings": "4.3",
+    "developer": "Roblox Corporation"
+  },
+  {
+    "id": "16",
+    "title": "Hill Climb Racing",
+    "coverPhoto": "https://apkcombo.com/wp-content/uploads/2019/05/com.fingersoft.hillclimb_racing_icon.png",
+    "category": "Racing",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.fingersoft.hillclimb",
+    "description": "Drive uphill in this physics-based racing game — upgrade your vehicle and try to beat your best distance.",
+    "ratings": "4.2",
+    "developer": "Fingersoft"
+  },
+  {
+    "id": "17",
+    "title": "Mobile Legends: Bang Bang",
+    "coverPhoto": "https://cdn.mobamanager.com/mobilelegends/image/icon128.png",
+    "category": "MOBA",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.mobile.legends",
+    "description": "5v5 MOBA on mobile — choose your hero, team up, and battle in real-time strategic matches.",
+    "ratings": "4.1",
+    "developer": "Moonton"
+  },
+  {
+    "id": "18",
+    "title": "Clash Royale",
+    "coverPhoto": "https://supercell.com/static/images/games/clash-royale/royale-icon.png",
+    "category": "Strategy / Card",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale",
+    "description": "Collect and upgrade dozens of cards featuring Clash of Clans characters, and duel players in real-time.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "19",
+    "title": "Brawl Stars",
+    "coverPhoto": "https://supercell.com/static/images/games/brawl-stars/brawl-stars-icon.png",
+    "category": "Action / MOBA",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars",
+    "description": "Fast-paced 3v3 or battle royale matches where you choose from a variety of brawlers with unique skills.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "20",
+    "title": "Pokémon GO",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/98/Pok%C3%A9mon_GO_logo.png",
+    "category": "AR / Adventure",
+    "downloadLink": "https://pokemongolive.com",
+    "description": "Explore the real world, catch Pokémon, battle in gyms, and team up with friends in this augmented reality adventure.",
+    "ratings": "4.1",
+    "developer": "Niantic"
+  },
+  {
+    "id": "21",
+    "title": "Subnautica: Below Zero",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/40/Subnautica_Below_Zero_Cover.png",
+    "category": "Survival / Adventure",
+    "downloadLink": "https://unknownworlds.com/subnautica/below-zero/",
+    "description": "Explore icy underwater biomes on an alien planet, survive varied environments, and uncover the mysteries of the deep.",
+    "ratings": "4.3",
+    "developer": "Unknown Worlds Entertainment"
+  },
+  {
+    "id": "22",
+    "title": "Asphalt 9: Legends",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/5d/Asphalt_9_logo.png",
+    "category": "Racing",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.gameloft.asphalt9",
+    "description": "Race with exotic cars in high-speed arcade-style tracks with stunning graphics and real-time multiplayer.",
+    "ratings": "4.5",
+    "developer": "Gameloft"
+  },
+  {
+    "id": "23",
+    "title": "Clash of Lords",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/f/f3/Clash_of_Lords_Icon.png",
+    "category": "Strategy",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.igg.clashlords",
+    "description": "Build your army, defend your base, and go to war in this strategic mobile empire-building game.",
+    "ratings": "4.0",
+    "developer": "IGG"
+  },
+  {
+    "id": "24",
+    "title": "CSR Racing 2",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/2/2d/CSR_Racing_2_logo.png",
+    "category": "Racing",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.naturalmotion.customstreetracer2",
+    "description": "Drag race with real supercars — customize, upgrade and compete in fast-paced multiplayer races.",
+    "ratings": "4.3",
+    "developer": "NaturalMotion"
+  },
+  {
+    "id": "25",
+    "title": "Hay Day",
+    "coverPhoto": "https://supercell.com/static/images/games/hay-day/icon.png",
+    "category": "Simulation / Farming",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.supercell.hayday",
+    "description": "Manage your farm, grow crops, raise animals, and trade goods with your neighbors.",
+    "ratings": "4.6",
+    "developer": "Supercell"
+  },
+  {
+    "id": "26",
+    "title": "Rise of Kingdoms",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/45/Rise_of_Kingdoms_logo.png",
+    "category": "Strategy",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.lilithgame.roc.gp",
+    "description": "Command a civilization, fight historic battles, and expand your kingdom in this real-time strategy game.",
+    "ratings": "4.4",
+    "developer": "Lilith Games"
+  },
+  {
+    "id": "27",
+    "title": "AFK Arena",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/3/3a/AFK_Arena_logo.png",
+    "category": "Idle RPG",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.lilithgame.hgame.gp",
+    "description": "Collect heroes, set them in battle formations, and progress through the game even while you’re away.",
+    "ratings": "4.5",
+    "developer": "Lilith Games"
+  },
+  {
+    "id": "28",
+    "title": "State of Survival",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/2/27/State_of_Survival_logo.png",
+    "category": "Strategy / Survival",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.kingsgroup.ss",
+    "description": "A post-apocalyptic survival MMO where you build a base, team up with allies, and fight off zombies.",
+    "ratings": "4.2",
+    "developer": "KingsGroup"
+  },
+  {
+    "id": "29",
+    "title": "Marvel Contest of Champions",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/a/a7/Marvel_Contest_of_Champions_logo.png",
+    "category": "Fighting / Action",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.kabam.marvelbattle",
+    "description": "Battle as iconic Marvel heroes and villains in 3D arenas. Fight in solo mode or against other players.",
+    "ratings": "4.3",
+    "developer": "Kabam"
+  },
+  {
+    "id": "30",
+    "title": "Subway Princess Runner",
+    "coverPhoto": "https://play-lh.googleusercontent.com/Oor3kqTbKjer8Yf2cJXcWwoK59cJW9690gCMpZPCL0yQvjx7ztObzYdGh_t0UWpiG8Q",
+    "category": "Endless Runner",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.sabec.runner.princess",
+    "description": "Run through subway tracks as a princess — dodge obstacles, collect coins and unlock new characters.",
+    "ratings": "4.1",
+    "developer": "Sabec"
+  }
+]
