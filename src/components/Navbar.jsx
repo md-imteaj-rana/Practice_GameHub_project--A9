@@ -16,7 +16,7 @@ const Navbar = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><Link to="/">Home</Link></li>
         <li><Link to='/AllGames'>All Games</Link></li>
-        <li><a>Item 3</a></li>
+        <li><Link to="/Profile">Profile</Link></li>
       </ul>
     </div>
     <Link to='/'><h2 className='btn btn-ghost text-2xl font-extrabold bg-yellow-200 rounded-2xl'><span className='text-blue-500'>Game</span><span className='text-green-500'>Hub</span></h2></Link>
@@ -25,8 +25,7 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
       <li><Link to="/">Home</Link></li>
       <li><Link to='/AllGames'>All Games</Link></li>
-      
-      <li><a>Item 3</a></li>
+      <li><Link to="/Profile">Profile</Link></li>
     </ul>
   </div>
   <div className="navbar-end">

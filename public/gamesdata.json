@@ -348,5 +348,105 @@
     "description": "Welcome to Redview County, where a street-racing rivalry between cops and racers never stops as both sides compete in an all-out war featuring the fastest cars.",
     "ratings": "3.9",
     "developer": "Ghost Games"
+  },
+  {
+    "id": "36",
+    "title": "Need for Speed Payback",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/1262580/header.jpg",
+    "category": "Racing",
+    "downloadLink": "https://store.steampowered.com/app/1262580/Need_for_Speed_Payback/",
+    "description": "Set in the underworld of Fortune Valley, you and your crew were divided by betrayal and reunited by revenge to take down The House, a nefarious cartel.",
+    "ratings": "4.2",
+    "developer": "Ghost Games"
+  },
+  {
+    "id": "37",
+    "title": "Need for Speed (2015)",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/1262540/header.jpg",
+    "category": "Racing",
+    "downloadLink": "https://store.steampowered.com/app/1262540/Need_for_Speed/",
+    "description": "Discover the nocturnal open world of urban car culture, driven by Five Ways to Play, in this thrilling reboot of the Need for Speed franchise.",
+    "ratings": "4.1",
+    "developer": "Ghost Games"
+  },
+  {
+    "id": "38",
+    "title": "Need for Speed: Shift",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/24870/header.jpg",
+    "category": "Simulation Racing",
+    "downloadLink": "https://store.steampowered.com/app/24870/Need_for_Speed_Shift/",
+    "description": "A focused simulation-style racing game that delivers a true driver’s experience with realistic physics, pixel-perfect car models, and a wide range of tracks.",
+    "ratings": "4.0",
+    "developer": "Slightly Mad Studios"
+  },
+  {
+    "id": "39",
+    "title": "Need for Speed Undercover",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/17430/header.jpg",
+    "category": "Racing",
+    "downloadLink": "https://store.steampowered.com/app/17430/Need_for_Speed_Undercover/",
+    "description": "You are an undercover cop tasked with infiltrating a ruthless international crime syndicate. Chase down criminals and evade the police in high-speed highway battles.",
+    "ratings": "3.8",
+    "developer": "EA Black Box"
+  },
+  {
+    "id": "40",
+    "title": "Shift 2 Unleashed",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/47920/header.jpg",
+    "category": "Simulation Racing",
+    "downloadLink": "https://store.steampowered.com/app/47920/Shift_2_Unleashed/",
+    "description": "The sequel to NFS: Shift, this entry brings the true driver’s experience to life with all the intensity and exhilaration of being behind the wheel of the world's fastest cars.",
+    "ratings": "4.1",
+    "developer": "Slightly Mad Studios"
+  },
+  {
+    "id": "41",
+    "title": "EA SPORTS FC™ 24",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg",
+    "category": "Football (Soccer)",
+    "downloadLink": "https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/",
+    "description": "The new era of the world's game, featuring HyperMotionV technology and PlayStyles optimized by Opta, delivering unparalleled realism on the pitch.",
+    "ratings": "4.1",
+    "developer": "EA Vancouver, EA Romania"
+  },
+  {
+    "id": "42",
+    "title": "NBA 2K24",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/2338770/header.jpg",
+    "category": "Basketball",
+    "downloadLink": "https://store.steampowered.com/app/2338770/NBA_2K24/",
+    "description": "Experience the past, present, and future of hoops culture with innovative gameplay and an expansive MyCAREER mode to create your own legacy.",
+    "ratings": "3.5",
+    "developer": "Visual Concepts"
+  },
+  {
+    "id": "43",
+    "title": "eFootball™ 2024",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/1665460/header.jpg",
+    "category": "Football (Soccer)",
+    "downloadLink": "https://store.steampowered.com/app/1665460/eFootball_2024/",
+    "description": "A free-to-play football simulation focusing on realism, offering the ultimate competitive environment with updated teams and continuous content.",
+    "ratings": "3.8",
+    "developer": "KONAMI"
+  },
+  {
+    "id": "44",
+    "title": "Seas of Strife",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/2244010/header.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/2244010/F1_23/",
+    "description": "Braking Point returns in a gripping new chapter, delivering high-stakes drama and fierce rivalries in the world of Formula 1.",
+    "ratings": "4.3",
+    "developer": "Codemasters"
+  },
+  {
+    "id": "45",
+    "title": "WWE 2K24",
+    "coverPhoto": "https://cdn.akamai.steamstatic.com/steam/apps/2315690/header.jpg",
+    "category": "Fighting / Wrestling",
+    "downloadLink": "https://store.steampowered.com/app/2315690/WWE_2K24/",
+    "description": "Wrestling simulation with a loaded roster, iconic match types like Ambulance and Casket matches, and the star-studded 40 Years of WrestleMania Showcase.",
+    "ratings": "4.0",
+    "developer": "Visual Concepts"
   }
 ]
