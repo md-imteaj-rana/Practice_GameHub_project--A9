@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm px-5">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn px-6">Login</a>
+    <Link to={'/Login'} className="btn px-6 btn-primary shadow-none bg-gray-800">Login</Link>
   </div>
 </div>
     </div>
