@@ -37,7 +37,7 @@ const PopularGames = () => {
                         <p className='font-semibold text-red-600'>{game?.developer}</p>
                     </div>
                     <div className="card-actions justify-end">
-                    <button className="btn btn-primary bg-gray-800 border-none shadow-none">Download</button>
+                    <button className="btn btn-primary bg-gray-800 border-none shadow-none"><a href={game?.downloadLink} target='blank'>Download</a></button>
                     </div>
                 </div>
                 </div>
