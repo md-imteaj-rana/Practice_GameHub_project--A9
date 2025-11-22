@@ -1,4 +1,6 @@
+//import Link from 'daisyui/components/link'
 import React from 'react'
+import { Link } from 'react-router'
 
 const Navbar = () => {
   return (
@@ -12,20 +14,17 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          
-        </li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to='/AllGames'>All Games</Link></li>
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">GameHub</a>
+    <Link to='/'><h2 className='btn btn-ghost text-2xl font-extrabold bg-yellow-200 rounded-2xl'><span className='text-blue-500'>Game</span><span className='text-green-500'>Hub</span></h2></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li><a>Item 2</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to='/AllGames'>All Games</Link></li>
       
       <li><a>Item 3</a></li>
     </ul>

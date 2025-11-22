@@ -6,7 +6,8 @@ import img4 from '../../public/slider_imgs/4.jpg'
 const Slider = () => {
   return (
     <div>
-      <div className="carousel w-full h-170">
+      <h2 className='text-4xl font-bold text-center py-5'>Featured Games</h2>
+      <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
     <img
       src={img1}
