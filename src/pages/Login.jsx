@@ -25,11 +25,13 @@ const Login = () => {
           // Signed in 
           const user = userCredential.user;
           setUser(user)
+          alert("Login success")
           navigate(location.state)
           // ...
         })
         .catch((error) => {
           console.log(error)
+          alert(error)
         });
 
       }
@@ -40,6 +42,7 @@ const Login = () => {
     .then(result => {
       const user = result.user
       setUser(user)
+      alert("Login success.")
       navigate(location.state ? location.state : '/')
     })
     .catch(err => console.log(err))

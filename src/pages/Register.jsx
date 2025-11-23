@@ -47,16 +47,19 @@ const Register = () => {
             displayName: name, photoURL: imageurl
             }).then(() => {
                 setUser(userCredential.user)
+                alert("Registration successful")
             // Profile updated!
             // ...
             }).catch((error) => {
                 console.log(error)
+                alert(error)
             // An error occurred
             // ...
             });
         })
         .catch((error) => {
         console.log(error)
+        alert(error)
          });
 
     }
@@ -66,6 +69,7 @@ const Register = () => {
     .then(result => {
       const user = result.user
       setUser(user)
+      alert("Registration success")
     })
     .catch(err => console.log(err))
   }

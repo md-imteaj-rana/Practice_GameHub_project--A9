@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contact = () => {
 
     const handlesend = (e) => {
@@ -35,7 +36,7 @@ const Contact = () => {
                 </fieldset>
                 
                 
-                <button className="btn btn-neutral mt-4 bg-gray-800">Send your thoughts!😀</button>
+                <button type='submit' className="btn btn-neutral mt-4 bg-gray-800">Send your thoughts!😀</button>
                 </form>
             </div>
             </div>
