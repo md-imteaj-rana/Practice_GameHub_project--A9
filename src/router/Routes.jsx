@@ -9,6 +9,7 @@ import PrivateRoutes from "./PrivateRoutes";
 import GameDetail from "../pages/GameDetail";
 import ForgetPass from "../pages/ForgetPass";
 import Error from "../pages/Error";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         {
           path: '/ForgetPass/:email',
           element: <ForgetPass></ForgetPass>
+        },
+        {
+          path: '/Contact',
+          element: <PrivateRoutes><Contact></Contact></PrivateRoutes>
         }
     ]
   },

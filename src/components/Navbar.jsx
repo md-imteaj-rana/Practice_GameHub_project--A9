@@ -25,6 +25,7 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to='/AllGames'>All Games</Link></li>
         <li><Link to="/Profile">Profile</Link></li>
+        <li><Link to="/Contact">Contact us</Link></li>
       </ul>
     </div>
     <Link to='/'><h2 className='btn btn-ghost text-2xl font-extrabold bg-yellow-200 rounded-2xl'><span className='text-blue-500'>Game</span><span className='text-green-500'>Hub</span></h2></Link>
@@ -34,6 +35,7 @@ const Navbar = () => {
       <li><Link to="/">Home</Link></li>
       <li><Link to='/AllGames'>All Games</Link></li>
       <li><Link to="/Profile">Profile</Link></li>
+      <li><Link to="/Contact">Contact us</Link></li>
     </ul>
   </div>
   {
