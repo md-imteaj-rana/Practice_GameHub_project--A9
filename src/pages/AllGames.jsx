@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const AllGames = () => {
     const [games, setGames] = useState([]);
     
         useEffect(() => {
-            fetch('gamesdata.json').then(res => res.json()).then(data => setGames(data)).catch(err => console.log(err))
+            fetch('/gamesdata.json').then(res => res.json()).then(data => setGames(data)).catch(err => console.log(err))
         },[])
   return (
     <div className='px-5 pl-13 mb-20'>
@@ -33,7 +34,7 @@ const AllGames = () => {
                           </div>
                           <div className="card-actions flex items-center justify-between mt-4">
                           <button className="btn btn-primary bg-gray-800 border-none shadow-none"><a href={game?.downloadLink} target='blank'>Download</a></button>
-                          <button className="btn btn-primary bg-gray-800 border-none shadow-none"><a href={game?.downloadLink} target='blank'>View Details</a></button>
+                          <Link to={`/GameDetail/${game?.id}`}><button className="btn btn-primary bg-gray-800 border-none shadow-none">View Details</button></Link>
                           </div>
                       </div>
                       </div>
