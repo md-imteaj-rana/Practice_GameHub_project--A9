@@ -15,6 +15,31 @@ const Register = () => {
         const name = e.target.name.value;
         const imageurl = e.target.imageurl.value;
 
+        const uppercase = /[A-Z]/;
+        const lowercase = /[a-z]/
+        const number = /[0-9]/;           
+        const specialChar = /[!@#$%^&*(),.?":{}|<>]/;
+
+        if(pass.length < 6){
+          return alert("Password length can not be less than 6!!!")
+        }
+
+        if(!uppercase.test(pass)){
+          return alert("You must use uppercase letters in your password.")
+        }
+
+        if(!lowercase.test(pass)){
+          return alert("You must use lowercase letters in your password.")
+        }
+
+        if (!number.test(pass)) {
+          return alert("You must include at least one number.");
+        }
+
+        if (!specialChar.test(pass)) {
+          return alert("You must include at least one special character.");
+        }
+
         registerWithEmailAndPassword(email, pass)
         .then((userCredential) =>{
             //const user = userCredential.user
