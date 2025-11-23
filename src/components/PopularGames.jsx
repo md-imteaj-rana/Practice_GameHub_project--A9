@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
+import { motion } from "motion/react"
 
 const PopularGames = () => {
 
@@ -22,7 +23,7 @@ const PopularGames = () => {
     <div className='grid grid-cols-1 md:grid-cols-3 gap-3 mt-6'>
         {
             games.slice(0,6).map(game => 
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <motion.div initial={{ scale: 0.6 }} animate={{scale: 1,transition: { duration: 1 }}} className="card bg-base-100 w-96 shadow-sm">
                 <figure>
                     <img
                     src={game?.coverPhoto}
@@ -41,7 +42,7 @@ const PopularGames = () => {
                     <Link to={`/GameDetail/${game?.id}`}><button className="btn btn-primary bg-gray-800 border-none shadow-none">View Details</button></Link>
                     </div>
                 </div>
-                </div>
+                </motion.div>
             )
         }
         </div>
