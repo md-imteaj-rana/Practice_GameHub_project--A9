@@ -1,5 +1,5 @@
-import { createUserWithEmailAndPassword } from 'firebase/auth';
-import React, { createContext, useState } from 'react'
+import { createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
+import React, { createContext, useEffect, useState } from 'react'
 import auth from '../Firebase/firebase.config';
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -13,7 +13,17 @@ const AuthProvider = ({children}) => {
     const registerWithEmailAndPassword = (email, pass) =>{
         
         return createUserWithEmailAndPassword(auth, email, pass)
-    }
+    } 
+
+    useEffect(() => {
+      const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+            setUser(currentUser)
+            setLoading(false)
+      })
+      return () => {
+        unsubscribe()
+      }
+    },[])
 
     const authData = {
         registerWithEmailAndPassword,

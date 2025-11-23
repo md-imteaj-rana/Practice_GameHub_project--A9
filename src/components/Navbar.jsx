@@ -1,8 +1,16 @@
 //import Link from 'daisyui/components/link'
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router'
+import { AuthContext } from '../provider/AuthProvider'
+import { signOut } from 'firebase/auth'
+import auth from '../Firebase/firebase.config'
 
 const Navbar = () => {
+  const {user} = useContext(AuthContext)
+
+  const handleSignOut = () => {
+    signOut(auth)
+  }
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm px-5">
@@ -28,10 +36,17 @@ const Navbar = () => {
       <li><Link to="/Profile">Profile</Link></li>
     </ul>
   </div>
-  <div className="navbar-end">
+  {
+    user && <div className="navbar-end">
+    <button onClick={handleSignOut} className="btn px-6 btn-primary shadow-none bg-gray-800">Logout</button>
+  </div>
+  }
+  {
+    !user && <div className="navbar-end">
     <Link to={'/Login'} className="btn px-6 btn-primary shadow-none bg-gray-800">Login</Link>
   </div>
-</div>
+  }
+  </div>
     </div>
   )
 }
