@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router'
+import { Link, useLocation, useNavigate } from 'react-router'
 import { AuthContext } from '../provider/AuthProvider'
 import { updateProfile } from 'firebase/auth';
 import auth from '../Firebase/firebase.config';
@@ -7,6 +7,9 @@ import auth from '../Firebase/firebase.config';
 const Register = () => {
 
     const {registerWithEmailAndPassword, setUser, handleGoogleSignin} = useContext(AuthContext);
+
+    const location = useLocation()
+    const navigate = useNavigate()
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -48,6 +51,7 @@ const Register = () => {
             }).then(() => {
                 setUser(userCredential.user)
                 alert("Registration successful")
+                navigate(location.state ? location.state : '/')
             // Profile updated!
             // ...
             }).catch((error) => {
@@ -68,7 +72,8 @@ const Register = () => {
     handleGoogleSignin()
     .then(result => {
       const user = result.user
-      setUser(user)
+      setUser({...user, photoURL: user.photoURL, displayName: user.displayName})
+      navigate(location.state ? location.state : '/')
       alert("Registration success")
     })
     .catch(err => console.log(err))

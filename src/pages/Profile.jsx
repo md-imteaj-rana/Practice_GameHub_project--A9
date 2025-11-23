@@ -35,7 +35,7 @@ const Profile = () => {
     <div>
       <title>User Profile</title>
 
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center py-10'>
         <div className="avatar">
           <div className="w-65 rounded-full">
             <img src={user?.photoURL} />

@@ -23,7 +23,14 @@ const AuthProvider = ({children}) => {
 
     useEffect(() => {
       const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-            setUser(currentUser)
+            setUser(prev => {
+              // If previous had Google photo but new one doesn't → KEEP previous
+              if (prev?.photoURL && !currentUser?.photoURL) {
+                return prev;
+              }
+              return currentUser;
+            });
+            //setUser(currentUser)
             setLoading(false)
       })
       return () => {
