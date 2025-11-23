@@ -1,15 +1,19 @@
 //import Link from 'daisyui/components/link'
 import React, { useContext } from 'react'
-import { Link } from 'react-router'
+import { Link, Navigate, useLocation, useNavigate } from 'react-router'
 import { AuthContext } from '../provider/AuthProvider'
 import { signOut } from 'firebase/auth'
 import auth from '../Firebase/firebase.config'
 
 const Navbar = () => {
   const {user} = useContext(AuthContext)
+  const location = useLocation()
+  const navigate = useNavigate()
 
   const handleSignOut = () => {
     signOut(auth)
+    alert("Logout success.")
+    navigate(location.state - '/')
   }
   return (
     <div>
